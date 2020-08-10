@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/93df447214.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+        
+        html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+        
+        main {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        .wrapper {
+            width: 86%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url(dog.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        aside {
+            height: 100%;
+            width: 14%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: center;
+        }
+        aside div {
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 26px;
+            border-bottom: black 2px solid;
+            box-sizing: border-box;
+            
+            
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            transition: .2s;
+        }
+        div:nth-child(10) {
+            border: none;
+        }
+        a:hover {
+            cursor: pointer;
+            font-size: 33px;
+
+        }
+        i {
+            padding-right: 3px;
+        }
+        h1 {
+            font-size: 95px;
+            padding-left: 80px;
+            font-family: 'Roboto Condensed', sans-serif;
+            letter-spacing: 1px;
+            color: white;
+        }
+        @media (max-width: 1280px) {
+            h1 {
+                font-size: 115px;
+                line-height: 45px;
+                padding-left: 0px;
+                text-align: center;
+
+            }
+            aside {
+                top: 100%;
+                left: 0%;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            aside div {
+                width: 100vw;
+                font-size: 50px;
+            }
+            .wrapper {
+                width: 100%;
+                background-position: -95vw 0px;
+            }
+        }
+        @media (max-width: 450px) {
+            h1 {
+                font-size: 60px;
+                line-height: 45px;
+                padding-left: 0px;
+                text-align: center;
+
+            }
+            aside {
+                top: 100%;
+                left: 0%;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            aside div {
+                width: 100vw;
+                font-size: 35px;
+            }
+            .wrapper {
+                width: 100%;
+                background-position: -140vw 0px;
+            }
+        }
+        @media (max-width: 375px) {
+            h1 {
+                font-size: 50px;
+                line-height: 45px;
+                padding-left: 0px;
+                text-align: center;
+
+            }
+            aside {
+                top: 100%;
+                left: 0%;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            aside div {
+                width: 100vw;
+                font-size: 35px;
+            }
+            .wrapper {
+                width: 100%;
+                background-position: -180vw 0px;
+            }
+        }
+        @media (max-width: 360px) {
+            h1 {
+                font-size: 50px;
+                line-height: 45px;
+                padding-left: 0px;
+                text-align: center;
+
+            }
+            aside {
+                top: 100%;
+                left: 0%;
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                width: 100%;
+                
+            }
+            aside div {
+                width: 100vw;
+            }
+            .wrapper {
+                width: 100%;
+                background-position: -140vw 0px;
+            }
+        }
+@media (max-width: 280px) {
+    .wrapper {
+                background-position: -200vw 0px;
+            }
+
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <h1>Best Dog Farm</h1>
+            
+
+        </div>
+        <aside>
+            <div><a href="contactpage.html"><i class="fas fa-home"></i>Home</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-dog"></i>Breeds</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-bone"></i>Dog toys</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-images"></i>Gallery</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-search-location"></i>Location</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-user-friends"></i>Cadre</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-award"></i>Awards</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-phone-square"></i>Contact</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-handshake"></i>Sponsor</a></div>
+            <div><a href="contactpage.html"><i class="fas fa-info-circle"></i>About us</a></div>
+        </aside>
+    </main>
+</body>
+</html>
